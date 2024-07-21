@@ -17,3 +17,31 @@ body {
 .wallet-adapter-button {
   font-family: inherit !important;
 }
+
+.logo-div {
+  display: flex;
+  width: 120px;
+  background-image: url('/logos/white_text_logo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 120px;
+  height: 120px;
+}
+
+.sub-logo-div {
+  display: flex;
+  width: 80px;
+  background-image: url('/logos/white_text_logo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 120px;
+  height: 100px;
+}
+
+.solana-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('/logos/solana-logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
