@@ -27,15 +27,6 @@ export default function MissionPage() {
               <p className="text-lg text-center">
                   The only difference is that everything is now on Solana.
               </p>
-
-                <a
-                    href="/Hestia.pdf"
-                    className="link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Download pitch deck here ( Hestia.pdf )
-                </a>
           </div>
         </div>
     );

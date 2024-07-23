@@ -18,9 +18,17 @@ const links: { label: string; href: string }[] = [
 export default function DashboardFeature() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
-      <img src="/logos/hestia_bust_black_logo.svg" alt="Hestia" style={{width: '40%'}} />
-      <AppHero title="Restaurant I.T. Infrastructure" subtitle="POS | Inventory | Employees | Customers | Orders | Rewards | Payment">
-        <div className="opos" />
+      <img 
+        src="/logos/hestia_bust_black_logo.svg" 
+        alt="Hestia" 
+        style={{
+          width: '40%',
+          height: 'auto',
+          marginTop: '5%',
+        }} 
+      />
+      <AppHero title="Solana Restaurant Infrastructure" subtitle="POS | Inventory | Employees | Customers | Orders | Rewards | Payment">
+        <div className="opos" style={{ borderRadius: '7px' }}/>
       </AppHero>
       <div className="flex flex-col gap-12 pb-6">
         <CTA1Card />

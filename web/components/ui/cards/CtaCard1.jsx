@@ -6,7 +6,7 @@ const CTA1Card = () => {
   const router = useRouter();
     return (
         <div 
-          className="flex flex-col items-center text-center bg-black text-white p-6 rounded-lg shadow-lg"
+          className="flex flex-col items-center text-center text-white p-6 rounded-lg shadow-lg cta-card-a"
           style={{ width: '90vw', padding: '2rem', margin: '0 auto', opacity: '0.9' }}
         >
           {/* <Image
