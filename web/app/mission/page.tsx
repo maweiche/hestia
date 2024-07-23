@@ -3,7 +3,8 @@
 
 export default function MissionPage() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen gap-12">
+        <div className="flex flex-col items-center justify-center min-h-screen gap-12 pb-6">
+            <img src="/graphics/about_hestia2.png" style={{width: '40vw', paddingTop: '2rem'}}/>
           <div className= "flex flex-col items-center gap-6" style={{ width: "80vw"}}>
               <p className="text-2xl text-center">
                   Hestia is a Greek goddess who can be difficult to distinguish from other goddesses, <br />
