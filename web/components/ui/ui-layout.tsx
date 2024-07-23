@@ -144,7 +144,7 @@ export function AppHero({
   return (
     <div className="hero py-[14px]">
       <div className="hero-content text-center">
-        <div className="max-w-2xl space-y-8">
+        <div className="flex flex-col items-center max-w-2xl space-y-8">
           {typeof title === 'string' ? (
             <h1 className="text-5xl font-bold">{title}</h1>
           ) : (
