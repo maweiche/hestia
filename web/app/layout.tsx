@@ -15,7 +15,8 @@ const links: { label: string; path: string }[] = [
   // { label: 'Counter Program', path: '/counter' },
   { label: 'About', path: '/about' },
   { label: 'Mission', path: '/mission' },
-  { label: 'Service', path: '/service' }
+  { label: 'Services', path: '/service' },
+  { label: 'Interfaces', path: '/interfaces' },
 ];
 
 export default function RootLayout({
